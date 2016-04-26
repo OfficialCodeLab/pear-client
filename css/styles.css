@@ -1,0 +1,32 @@
+h1, h2, h3, h4, h5, h6, p{
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	color: rgb(88,89,91);
+}
+
+
+.fullscreen{
+	height: 100vh;
+	width: 100vw;
+	max-width:100%;
+	position: relative
+	/*padding-top: 10%;*/
+}
+#splash-logo{
+	width: 50%;
+	display: block;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	margin-left: 20%;
+
+	/*margin: 0;*/
+	position: absolute;               /* 2 */
+	top: 40%;                         /* 3 */
+	transform: translate(0, -50%) }   /* 4 */
+}
+.unselectable{
+	user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
