@@ -40,3 +40,31 @@ h1, h2, h3, h4, h5, h6, p{
     -webkit-user-select: none;
     -o-user-select: none;
 }
+
+#searchbox {
+    border-radius: 25px;
+    border: 1px solid #88B991;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.right-inner-addon input {
+    padding-right: 30px;  
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+    height:80px;
+}
+
+.left-inner-addon {
+    position: relative;
+    height:80px;
+}
