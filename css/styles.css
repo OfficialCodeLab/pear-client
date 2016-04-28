@@ -28,9 +28,16 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 #section1{
 	background-image: url(../images/couple.jpg);
-	background-size:     cover; 
+	background-size:     cover;
 	background-repeat:   no-repeat;
 	background-position: center center;
+	color: white;
+}
+#section1 a{
+	color: white;
+}
+#section1 a:hover{
+	color: brightgreen;
 }
 #splash-logo{
 	width: 50vw;
