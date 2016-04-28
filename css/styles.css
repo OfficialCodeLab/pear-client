@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 	font-size: 40px;
 }
 #section1{
-	background-image: url(../images/rings.jpg);
+	background-image: url(../images/couple.jpg);
 	background-size:     cover; 
 	background-repeat:   no-repeat;
 	background-position: center center;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 	position: absolute;               /* 2 */
 	top: 40%;                         /* 3 */
 	transform: translate(0, -50%);   /* 4 */
-	background-image: url(../images/pear-logo.png);
+	background-image: url(../images/pearwhite-full.svg);
     background-size:     contain;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
