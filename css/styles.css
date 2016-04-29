@@ -95,6 +95,13 @@ body{
 	height: 5vh;
 	min-height: 40px;
 
+	/*Styling*/
+	border: 3px solid white;
+	border-radius: 5px;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+
 }
 .debug div{
 	border: 1px solid white;
