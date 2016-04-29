@@ -24,4 +24,14 @@ $(document).ready(function(){
 		slideout.on('beforeclose', function() {
 		  document.querySelector('.fixed').classList.remove('fixed-open');
 		});
+
+		$('#close-sec2').click(function(){
+       $('#section2').fadeOut("slow");
+       $('#splash-content').fadeIn("slow");
+});
+
+       $('#open-sec2').click(function(){
+       $('#splash-content').fadeOut("slow");
+       $('#section2').fadeIn("slow");
+});
 });
